@@ -1,0 +1,23 @@
+# Виртуальное окружение
+venv/
+.venv/
+
+# Секреты
+.env
+
+# Датасет MNIST (большие CSV)
+mnist_train/
+mnist_test/
+*.csv
+__MACOSX/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# IDE / ОС
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
